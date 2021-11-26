@@ -1,0 +1,366 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'th' Physical Memory: 7068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker20
+-projectPath
+D:/3rd.2/lab1/Lab1
+-logFile
+Logs/AssetImportWorker20.log
+-srvPort
+50003
+Successfully changed project path to: D:/3rd.2/lab1/Lab1
+D:/3rd.2/lab1/Lab1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 352.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/3rd.2/lab1/Lab1/Assets
+GfxDevice: creating device client; threaded=0
+d3d12: loaded!
+Direct3D:
+    Version:         Direct3D 12 [level 12.0]
+    Renderer:        Radeon 535 Series (ID=0x6900)
+    Vendor:          
+    VRAM:            2039 MB
+    App VRAM Budget: 1733 MB
+    Driver:          23.20.840.0
+d3d12: Profiler is enabled, but stable power state is not. GPU timing errors are expected.
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012598 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 313.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.745 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5747ms)
+		BeginReloadAssembly (535ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (7ms)
+		EndReloadAssembly (4471ms)
+			LoadAssemblies (530ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1550ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (301ms)
+			SetupLoadedEditorAssemblies (1643ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (314ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (864ms)
+				ProcessInitializeOnLoadMethodAttributes (283ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.031085 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10801ms)
+		BeginReloadAssembly (1544ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (52ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (158ms)
+		EndReloadAssembly (8619ms)
+			LoadAssemblies (923ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2940ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (635ms)
+			SetupLoadedEditorAssemblies (3067ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (842ms)
+				ProcessInitializeOnLoadAttributes (2031ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (73ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.59 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.2 MB.
+System memory in use after: 68.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1939.
+Total: 34.522300 ms (FindLiveObjects: 1.726200 ms CreateObjectMapping: 0.598400 ms MarkObjects: 31.609900 ms  DeleteObjects: 0.576600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/my model/xbot@Run Forward.fbx
+  artifactKey: Guid(77e75863642733449aa4bd3b21951ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/xbot@Run Forward.fbx using Guid(77e75863642733449aa4bd3b21951ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3db0eb94af878d24028505873e2ca2') in 2.946749 seconds 
+  Import took 2.970522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.336991 seconds.
+  path: Assets/my model/xbot@Death From Right.fbx
+  artifactKey: Guid(42d349dfcb603fd4881917f884bab45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/xbot@Death From Right.fbx using Guid(42d349dfcb603fd4881917f884bab45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe90a7b22c2a7cb0c71c3adc0d14956d') in 0.564939 seconds 
+  Import took 0.587636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 898.522600 seconds.
+  path: Assets/my model/remy@Death From Front Headshot.fbx
+  artifactKey: Guid(6ac5daea72cfdc04ca939016bd246977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/remy@Death From Front Headshot.fbx using Guid(6ac5daea72cfdc04ca939016bd246977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a9871df828e28efcd3f4ff9bcaa0a0') in 6.259050 seconds 
+  Import took 6.300899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002431 seconds.
+  path: Assets/my model/remy@Salsa Dancing.fbx
+  artifactKey: Guid(eae8725f02ecee84597ede9bb5d6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/remy@Salsa Dancing.fbx using Guid(eae8725f02ecee84597ede9bb5d6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34e61665e62a1981957d7f8f04ddd33') in 1.990200 seconds 
+  Import took 2.025794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.747113 seconds.
+  path: Assets/my model/remy@Death From Front Headshot.fbx
+  artifactKey: Guid(6ac5daea72cfdc04ca939016bd246977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/remy@Death From Front Headshot.fbx using Guid(6ac5daea72cfdc04ca939016bd246977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52185ebffb05705d2329940556317f6d') in 1.816694 seconds 
+  Import took 1.850013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.912083 seconds.
+  path: Assets/my model/remy@Salsa Dancing.fbx
+  artifactKey: Guid(eae8725f02ecee84597ede9bb5d6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/remy@Salsa Dancing.fbx using Guid(eae8725f02ecee84597ede9bb5d6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcec6637b95c8b0f6ede09b50135417b') in 1.691461 seconds 
+  Import took 1.725683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.204615 seconds.
+  path: Assets/my model/remy@Salsa Dancing.fbx
+  artifactKey: Guid(eae8725f02ecee84597ede9bb5d6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/remy@Salsa Dancing.fbx using Guid(eae8725f02ecee84597ede9bb5d6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47bccb07ae8242ea92e51f75bf765e4') in 2.288833 seconds 
+  Import took 2.334210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.531046 seconds.
+  path: Assets/my model/remy@Death From Front Headshot.fbx
+  artifactKey: Guid(6ac5daea72cfdc04ca939016bd246977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/remy@Death From Front Headshot.fbx using Guid(6ac5daea72cfdc04ca939016bd246977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7e003b9ae922628128f827bc0ed590') in 2.680422 seconds 
+  Import took 2.728009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.338805 seconds.
+  path: Assets/my model/text
+  artifactKey: Guid(c44a284a9eb728f4c893ec0e075b95e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/text using Guid(c44a284a9eb728f4c893ec0e075b95e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da13bb44002c29721c46a366ee45c091') in 0.109366 seconds 
+  Import took 0.173658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.032256 seconds.
+  path: Assets/my model/remy@Death From Front Headshot.fbx
+  artifactKey: Guid(6ac5daea72cfdc04ca939016bd246977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/remy@Death From Front Headshot.fbx using Guid(6ac5daea72cfdc04ca939016bd246977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.559 ms.
+ -> (artifact id: 'c9838e2420cac77ca140b6632625425f') in 1.942387 seconds 
+  Import took 1.988604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.616560 seconds.
+  path: Assets/my model/remy@Death From Front Headshot.fbx
+  artifactKey: Guid(6ac5daea72cfdc04ca939016bd246977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/remy@Death From Front Headshot.fbx using Guid(6ac5daea72cfdc04ca939016bd246977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 11.119 ms.
+ -> (artifact id: 'ffd1dda9718ee22bfd4cbb1b22ef6c32') in 1.739142 seconds 
+  Import took 1.782639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.543644 seconds.
+  path: Assets/my model/remy@Salsa Dancing.fbx
+  artifactKey: Guid(eae8725f02ecee84597ede9bb5d6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/remy@Salsa Dancing.fbx using Guid(eae8725f02ecee84597ede9bb5d6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7583a9c182ca784ce2be7297fface89') in 3.125599 seconds 
+  Import took 3.175729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.158445 seconds.
+  path: Assets/my model/remy@Salsa Dancing.fbx
+  artifactKey: Guid(eae8725f02ecee84597ede9bb5d6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/remy@Salsa Dancing.fbx using Guid(eae8725f02ecee84597ede9bb5d6ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.607 ms.
+ -> (artifact id: '06fcc641aeaf98f0c13a07d6722c673c') in 1.641271 seconds 
+  Import took 1.681419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.392238 seconds.
+  path: Assets/my model
+  artifactKey: Guid(1efcb375e83c5014da59e58c12fa4819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model using Guid(1efcb375e83c5014da59e58c12fa4819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16536f97581a62789faf412f40256672') in 0.083979 seconds 
+  Import took 0.112326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.955667 seconds.
+  path: Assets/my model/salsaDance.controller
+  artifactKey: Guid(c164285727ba04a45ae3e1b1268c6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/salsaDance.controller using Guid(c164285727ba04a45ae3e1b1268c6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd30f800a3c1885e97970169c358422e') in 0.100882 seconds 
+  Import took 0.124935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.597522 seconds.
+  path: Assets/my model/death.controller
+  artifactKey: Guid(be79374d39a992047a0984e4476552c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/death.controller using Guid(be79374d39a992047a0984e4476552c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334e92b35250fbb7e8894bfa98856634') in 0.080964 seconds 
+  Import took 0.105931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.825639 seconds.
+  path: Assets/my model/salsaDance.controller
+  artifactKey: Guid(c164285727ba04a45ae3e1b1268c6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/salsaDance.controller using Guid(c164285727ba04a45ae3e1b1268c6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ecf82f11ca17f35d5d3f73cc6e0bc9') in 0.034175 seconds 
+  Import took 0.060056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.451710 seconds.
+  path: Assets/my model/death.controller
+  artifactKey: Guid(be79374d39a992047a0984e4476552c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/death.controller using Guid(be79374d39a992047a0984e4476552c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9f5466262a41685f2ae8e13a8348c7') in 0.027926 seconds 
+  Import took 0.054815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.681702 seconds.
+  path: Assets/my model/death.controller
+  artifactKey: Guid(be79374d39a992047a0984e4476552c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my model/death.controller using Guid(be79374d39a992047a0984e4476552c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd732ca00bcd3736783f8d9c048e77e6b') in 0.041371 seconds 
+  Import took 0.067138 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.049190 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.337 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10342ms)
+		BeginReloadAssembly (1139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (52ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (423ms)
+		EndReloadAssembly (8563ms)
+			LoadAssemblies (920ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (2980ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (410ms)
+			SetupLoadedEditorAssemblies (3212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (798ms)
+				ProcessInitializeOnLoadAttributes (2226ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (77ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 25.373300 ms (FindLiveObjects: 0.993800 ms CreateObjectMapping: 0.309200 ms MarkObjects: 23.928400 ms  DeleteObjects: 0.133600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1124.467172 seconds.
+  path: Assets/Prefabs/remy@Death From Front Headshot.prefab
+  artifactKey: Guid(8f3993e6e2a3bf74981ace59c1b56873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/remy@Death From Front Headshot.prefab using Guid(8f3993e6e2a3bf74981ace59c1b56873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 6.665 ms.
+ -> (artifact id: '7a7b2da3185a15dd6467f7d840004dd4') in 1.288934 seconds 
+  Import took 1.330650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.972808 seconds.
+  path: Assets/Prefabs/deathRefabs.prefab
+  artifactKey: Guid(8f3993e6e2a3bf74981ace59c1b56873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/deathRefabs.prefab using Guid(8f3993e6e2a3bf74981ace59c1b56873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 11.155 ms.
+ -> (artifact id: 'd0d78de38f256c9fefbc56163c90c98a') in 0.632702 seconds 
+  Import took 0.667108 seconds .
+
